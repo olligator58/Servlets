@@ -25,8 +25,9 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                    <port>8080</port>
-                    <path>/</path>
+                    <url>http://localhost:8080/manager/text</url>
+                    <server>TomcatServer</server>
+                    <path>/servlets</path>
                 </configuration>
             </plugin>
             <plugin>
